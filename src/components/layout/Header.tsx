@@ -16,7 +16,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white shadow-md border-b border-gray-200">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <h1 className="text-2xl font-bold text-primary">Alankar</h1>
+          <img src="\logo.png" alt="alankar" className='h-24 w-24 rounded-full' />
         </Link>
         
         <nav className="hidden md:flex items-center space-x-6">
