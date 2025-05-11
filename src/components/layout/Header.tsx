@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { ShoppingCart, User, Menu, X } from 'lucide-react';
@@ -13,10 +12,10 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   
   return (
-    <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
+    <header className="sticky top-0 z-50 bg-white shadow-md border-b border-gray-200">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <img src="\logo.png" alt="logo" className='h-24 w-24 rounded-full' />
+          <img src="\logo.png" alt="alankar" className='h-24 w-24 rounded-full' />
         </Link>
         
         <nav className="hidden md:flex items-center space-x-6">
@@ -48,17 +47,6 @@ export default function Header() {
         </nav>
         
         <div className="flex items-center space-x-4">
-          {isAuthenticated ? (
-            <Link to="/account" className="text-gray-700 hover:text-primary">
-              <span className="sr-only">Account</span>
-              <User className="h-6 w-6" />
-            </Link>
-          ) : (
-            <Link to="/login">
-              <Button variant="ghost" size="sm" className="hover:text-primary">Login</Button>
-            </Link>
-          )}
-          
           <Link to="/cart" className="relative text-gray-700 hover:text-primary">
             <span className="sr-only">Cart</span>
             <ShoppingCart className="h-6 w-6" />
