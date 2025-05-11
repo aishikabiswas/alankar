@@ -2,13 +2,13 @@
 import { Category } from '@/types';
 
 export const categories: Category[] = [
-  {
-    id: 'brass',
-    name: 'Brass Collection',
-    description: 'Timeless brass jewelry with intricate designs',
+   {
+    id: 'replica',
+    name: 'Replica Collection',
+    description: 'Timeless jewelry with intricate designs',
     image: '/images/categories/brass.jpg'
   },
-  {
+    {
     id: 'clay',
     name: 'Clay Creations',
     description: 'Handcrafted clay jewelry with unique textures',
