@@ -6,7 +6,7 @@ export const categories: Category[] = [
     id: 'replica',
     name: 'Replica Collection',
     description: 'Timeless jewelry with intricate designs',
-    image: '/images/categories/brass.jpg'
+    image: '/images/categories/replica.jpg'
   },
     {
     id: 'clay',
