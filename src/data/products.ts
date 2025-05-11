@@ -50,7 +50,8 @@ export const products: Product[] = [
     description: 'Aesthetic Kolkata brooch with elements of Howrah bridge, made with love.',
     price: 149,
     category: 'clay',
-    images: ['/images/products/clay-brotch-4.jpg']
+    images: ['/images/products/clay-brotch-4.jpg'],
+    featured:true
   },
   {
     id: '7',
@@ -58,7 +59,8 @@ export const products: Product[] = [
     description: 'Elements of Bangla Heritage, in a single pin.',
     price: 149,
     category: 'clay',
-    images: ['/images/products/clay-brotch-5.jpg']
+    images: ['/images/products/clay-brotch-5.jpg'],
+    featured:true
   },
   {
     id: '8',
@@ -82,7 +84,8 @@ export const products: Product[] = [
     description: 'Authentic, Rare, Yours.',
     price: 129,
     category: 'replica',
-    images: ['/images/products/replica-3.jpg']
+    images: ['/images/products/replica-3.jpg'],
+    featured:true
   },
   {
     id: '11',
@@ -106,7 +109,8 @@ export const products: Product[] = [
     description: 'Authentic, Rare, Yours.',
     price: 199,
     category: 'replica',
-    images: ['/images/products/replica-6.jpg']
+    images: ['/images/products/replica-6.jpg'],
+    featured:true
   },
   {
     id: '14',
@@ -148,13 +152,56 @@ export const products: Product[] = [
     category: 'replica',
     images: ['/images/products/replica-11.jpg']
   },
+  
   {
     id: '19',
-    name: 'Replica royal earrings',
-    description: 'Authentic, Rare, Yours.',
-    price: 249,
-    category: 'replica',
-    images: ['/images/products/replica-12.jpg']
+    name: 'Bow Tote Bag',
+    description: 'Aesthetic and Eco-friendly',
+    price: 199,
+    category: 'tote-bags',
+    images: ['/images/products/tote-bag-1.jpg'],
+    featured:true
+  },
+   {
+    id: '20',
+    name: 'Evil Eye Tote Bag',
+    description: 'Your aesthetic नज़र-saviour',
+    price: 199,
+    category: 'tote-bags',
+    images: ['/images/products/tote-bag-2.jpg'],
+  },
+   {
+    id: '20',
+    name: 'Tulip Tote Bag',
+    description: 'Eco-friendly flowery bag <3',
+    price: 199,
+    category: 'tote-bags',
+    images: ['/images/products/tote-bag-3.jpg'],
+  },
+  {
+    id: '21',
+    name: 'No Bad Vibes Tote Bag',
+    description: 'Pretty, pretty, pretty bag',
+    price: 199,
+    category: 'tote-bags',
+    images: ['/images/products/tote-bag-4.jpg'],
+    featured:true
+  },
+  {
+    id: '22',
+    name: 'Another Evil Eye Tote Bag',
+    description: 'Eco-friendly evil-eye bag <3',
+    price: 199,
+    category: 'tote-bags',
+    images: ['/images/products/tote-bag-5.jpg'],
+  },
+  {
+    id: '23',
+    name: 'Im Just a girl Tote Bag',
+    description: 'Afterall, you are just a girlie >.<',
+    price: 199,
+    category: 'tote-bags',
+    images: ['/images/products/tote-bag-6.jpg'],
   },
   
 ];
