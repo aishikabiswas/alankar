@@ -13,11 +13,11 @@ export default function Footer() {
               Handcrafted jewelry and accessories inspired by tradition and reimagined for the modern world.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-primary transition-colors">
+              <a href="https://www.facebook.com/alankar185" className="text-gray-300 hover:text-primary transition-colors">
                 <span className="sr-only">Facebook</span>
                 <Facebook className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-primary transition-colors">
+              <a href="https://www.instagram.com/alankar_handmade.jewellery/" className="text-gray-300 hover:text-primary transition-colors">
                 <span className="sr-only">Instagram</span>
                 <Instagram className="h-6 w-6" />
               </a>
