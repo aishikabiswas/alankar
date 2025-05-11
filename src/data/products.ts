@@ -7,7 +7,7 @@ export const products: Product[] = [
     name: 'Spiral Brass Earrings',
     description: 'Handcrafted spiral earrings made from premium brass material with intricate detailing.',
     price: 1299,
-    category: 'brass',
+    category: 'replica',
     images: ['/images/products/brass-earrings-1.jpg', '/images/products/brass-earrings-2.jpg'],
     featured: true
   },
@@ -16,94 +16,67 @@ export const products: Product[] = [
     name: 'Brass Statement Necklace',
     description: 'Bold statement necklace crafted with high-quality brass featuring geometric patterns.',
     price: 2499,
-    category: 'brass',
+    category: 'replica',
     images: ['/images/products/brass-necklace.jpg']
   },
   {
     id: '3',
-    name: 'Clay Hoop Earrings',
-    description: 'Lightweight clay hoop earrings with hand-painted designs in earthy tones.',
-    price: 999,
+    name: 'Clay Swastik Brooch Pin',
+    description: 'Lightweight clay brooch with hand-painted designs in earthy tones.',
+    price: 149,
     category: 'clay',
-    images: ['/images/products/clay-earrings.jpg'],
+    images: ['/images/products/clay-brotch-1.jpg'],
     featured: true
   },
   {
     id: '4',
-    name: 'Clay Pendant Necklace',
-    description: 'Unique pendant necklace made from natural clay with organic shapes.',
-    price: 1899,
+    name: 'Clay Bangali-Ana Brooch Pin',
+    description: 'Unique Bangali-coded brooch made from natural clay with organic shapes.',
+    price: 149,
     category: 'clay',
-    images: ['/images/products/clay-necklace.jpg']
+    images: ['/images/products/clay-brotch-2.jpg']
   },
   {
     id: '5',
-    name: 'Black Polish Stud Earrings',
-    description: 'Minimalist stud earrings with sleek black polish finish.',
-    price: 899,
-    category: 'black-polish',
-    images: ['/images/products/black-earrings.jpg'],
-    featured: true
+    name: 'Clay B-Buzz Brooch Pin',
+    description: 'Sweet as Honey, straight out of a hive; made from natural clay ',
+    price: 149,
+    category: 'clay',
+    images: ['/images/products/clay-brotch-3.jpg']
   },
   {
     id: '6',
-    name: 'Black Polish Cuff Bracelet',
-    description: 'Elegant cuff bracelet with black polish finish and subtle texture.',
-    price: 1799,
-    category: 'black-polish',
-    images: ['/images/products/black-bracelet.jpg']
+    name: 'Clay ক-for-Kolkata Brooch pin',
+    description: 'Aesthetic Kolkata brooch with elements of Howrah bridge, made with love.',
+    price: 149,
+    category: 'clay',
+    images: ['/images/products/clay-brotch-4.jpg']
   },
   {
     id: '7',
-    name: 'Oxidised Silver Jhumkas',
-    description: 'Traditional jhumka earrings with oxidised silver finish and intricate patterns.',
-    price: 1599,
-    category: 'oxidised',
-    images: ['/images/products/oxidised-jhumkas.jpg'],
-    featured: true
+    name: 'Clay Kulo w Swastik Brooch pin',
+    description: 'Elements of Bangla Heritage, in a single pin.',
+    price: 149,
+    category: 'clay',
+    images: ['/images/products/clay-brotch-5.jpg']
   },
   {
     id: '8',
-    name: 'Oxidised Layered Necklace',
-    description: 'Layered oxidised silver necklace with vintage-inspired pendants.',
-    price: 2299,
-    category: 'oxidised',
-    images: ['/images/products/oxidised-necklace.jpg']
+    name: 'Clay Taxi Brooch pin',
+    description: 'The good old yellow taxi, flaunt it with grace and heritage',
+    price: 149,
+    category: 'clay',
+    images: ['/images/products/clay-brotch-6.jpg']
   },
   {
     id: '9',
-    name: 'Bohemian Tassel Earrings',
-    description: 'Colorful tassel earrings with boho-chic appeal and lightweight design.',
-    price: 1099,
-    category: 'bohemian',
-    images: ['/images/products/boho-earrings.jpg']
+    name: 'Clay Flower Brooch pin',
+    description: 'If he does not buy you flowers, wear your own flowers like a queen',
+    price: 149,
+    category: 'clay',
+    images: ['/images/products/clay-brotch-7.jpg']
   },
-  {
-    id: '10',
-    name: 'Bohemian Anklet with Bells',
-    description: 'Traditional inspired anklet with small bells and colorful beads.',
-    price: 899,
-    category: 'bohemian',
-    images: ['/images/products/boho-anklet.jpg'],
-    featured: true
-  },
-  {
-    id: '11',
-    name: 'Canvas Tote Bag',
-    description: 'Durable canvas tote bag with hand-embroidered designs and spacious interior.',
-    price: 1499,
-    category: 'tote-bags',
-    images: ['/images/products/tote-bag-1.jpg'],
-    featured: true
-  },
-  {
-    id: '12',
-    name: 'Printed Fabric Tote',
-    description: 'Eco-friendly tote bag with unique block-printed patterns.',
-    price: 1299,
-    category: 'tote-bags',
-    images: ['/images/products/tote-bag-2.jpg']
-  }
+  
 ];
 
 export const getFeaturedProducts = (): Product[] => {
