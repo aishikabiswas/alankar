@@ -4,20 +4,20 @@ import { Product } from '@/types';
 export const products: Product[] = [
   {
     id: '1',
-    name: 'Spiral Brass Earrings',
-    description: 'Handcrafted spiral earrings made from premium brass material with intricate detailing.',
-    price: 1299,
+    name: 'Hashuli Set',
+    description: 'Authentic Replica design with a touch of premium-ness',
+    price: 899,
     category: 'replica',
-    images: ['/images/products/brass-earrings-1.jpg', '/images/products/brass-earrings-2.jpg'],
+    images: ['/images/products/replica-1.jpeg'],
     featured: true
   },
   {
     id: '2',
-    name: 'Brass Statement Necklace',
-    description: 'Bold statement necklace crafted with high-quality brass featuring geometric patterns.',
-    price: 2499,
+    name: 'Hashuli Statement Necklace Set',
+    description: 'Bold statement necklace crafted with high-quality metal featuring authentic patterns.',
+    price: 949,
     category: 'replica',
-    images: ['/images/products/brass-necklace.jpg']
+    images: ['/images/products/replica-2.jpeg']
   },
   {
     id: '3',
@@ -75,6 +75,86 @@ export const products: Product[] = [
     price: 149,
     category: 'clay',
     images: ['/images/products/clay-brotch-7.jpg']
+  },
+  {
+    id: '10',
+    name: 'Replica कबूतर earrings',
+    description: 'Authentic, Rare, Yours.',
+    price: 129,
+    category: 'replica',
+    images: ['/images/products/replica-3.jpg']
+  },
+  {
+    id: '11',
+    name: 'Replica ঈগল earrings',
+    description: 'Authentic, Rare, Yours.',
+    price: 179,
+    category: 'replica',
+    images: ['/images/products/replica-4.jpg']
+  },
+  {
+    id: '12',
+    name: 'Replica ছাতা earrings',
+    description: 'Authentic, Rare, Yours.',
+    price: 129,
+    category: 'replica',
+    images: ['/images/products/replica-5.jpg']
+  },
+  {
+    id: '13',
+    name: 'Replica कबूतर-PEACE earrings',
+    description: 'Authentic, Rare, Yours.',
+    price: 199,
+    category: 'replica',
+    images: ['/images/products/replica-6.jpg']
+  },
+  {
+    id: '14',
+    name: 'Replica झुमके earrings',
+    description: 'Authentic, Rare, Yours.',
+    price: 129,
+    category: 'replica',
+    images: ['/images/products/replica-7.jpg']
+  },
+  {
+    id: '15',
+    name: 'Replica crescent earrings',
+    description: 'Authentic, Rare, Yours.',
+    price: 199,
+    category: 'replica',
+    images: ['/images/products/replica-8.jpg']
+  },
+  {
+    id: '16',
+    name: 'Replica abstract earrings',
+    description: 'Authentic, Rare, Yours.',
+    price: 179,
+    category: 'replica',
+    images: ['/images/products/replica-9.jpg']
+  },
+  {
+    id: '17',
+    name: 'Replica मछली earrings',
+    description: 'Authentic, Rare, Yours.',
+    price: 149,
+    category: 'replica',
+    images: ['/images/products/replica-10.jpg']
+  },
+  {
+    id: '18',
+    name: 'Replica ঘট earrings',
+    description: 'Authentic, Rare, Yours.',
+    price: 149,
+    category: 'replica',
+    images: ['/images/products/replica-11.jpg']
+  },
+  {
+    id: '19',
+    name: 'Replica royal earrings',
+    description: 'Authentic, Rare, Yours.',
+    price: 249,
+    category: 'replica',
+    images: ['/images/products/replica-12.jpg']
   },
   
 ];
