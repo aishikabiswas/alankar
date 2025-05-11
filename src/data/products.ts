@@ -171,7 +171,7 @@ export const products: Product[] = [
     images: ['/images/products/tote-bag-2.jpg'],
   },
    {
-    id: '20',
+    id: '21',
     name: 'Tulip Tote Bag',
     description: 'Eco-friendly flowery bag <3',
     price: 199,
@@ -179,7 +179,7 @@ export const products: Product[] = [
     images: ['/images/products/tote-bag-3.jpg'],
   },
   {
-    id: '21',
+    id: '22',
     name: 'No Bad Vibes Tote Bag',
     description: 'Pretty, pretty, pretty bag',
     price: 199,
@@ -188,7 +188,7 @@ export const products: Product[] = [
     featured:true
   },
   {
-    id: '22',
+    id: '23',
     name: 'Another Evil Eye Tote Bag',
     description: 'Eco-friendly evil-eye bag <3',
     price: 199,
@@ -196,7 +196,7 @@ export const products: Product[] = [
     images: ['/images/products/tote-bag-5.jpg'],
   },
   {
-    id: '23',
+    id: '24',
     name: 'Im Just a girl Tote Bag',
     description: 'Afterall, you are just a girlie >.<',
     price: 199,
