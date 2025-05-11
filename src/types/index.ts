@@ -9,7 +9,7 @@ export interface Product {
   featured?: boolean;
 }
 
-export type CategoryType = 'brass' | 'clay' | 'black-polish' | 'oxidised' | 'bohemian' | 'tote-bags';
+export type CategoryType = 'replica' | 'clay' | 'black-polish' | 'oxidised' | 'bohemian' | 'tote-bags';
 
 export interface Category {
   id: CategoryType;
