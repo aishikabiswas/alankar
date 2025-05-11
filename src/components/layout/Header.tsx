@@ -1,3 +1,4 @@
+
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { ShoppingCart, User, Menu, X } from 'lucide-react';
@@ -15,16 +16,19 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white shadow-md border-b border-gray-200">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <img src="\logo.png" alt="alankar" className='h-24 w-24 rounded-full' />
+          <h1 className="text-2xl font-bold text-primary">Alankar</h1>
         </Link>
         
         <nav className="hidden md:flex items-center space-x-6">
           <Link to="/" className="text-gray-700 hover:text-primary transition-colors">
             Home
           </Link>
+          <Link to="/shop" className="text-gray-700 hover:text-primary transition-colors">
+            Shop
+          </Link>
           <div className="relative group">
             <button className="text-gray-700 hover:text-primary transition-colors flex items-center">
-              Shop
+              Categories
             </button>
             <div className="absolute top-full left-0 hidden group-hover:block bg-white shadow-lg rounded-md overflow-hidden w-48 z-10">
               {categories.map((category) => (
@@ -82,6 +86,13 @@ export default function Header() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Home
+              </Link>
+              <Link 
+                to="/shop" 
+                className="text-gray-700 hover:text-primary py-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Shop
               </Link>
               <div className="border-t border-gray-100 pt-2">
                 <p className="text-sm font-medium text-gray-500 mb-2">Categories</p>
