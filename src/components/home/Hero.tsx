@@ -13,8 +13,8 @@ interface HeroSlide {
 
 const slides: HeroSlide[] = [
   {
-    title: 'Handcrafted Elegance',
-    subtitle: 'Discover our exquisite new brass collection for the modern woman',
+    title: 'Replicated Elegance',
+    subtitle: 'Discover our exquisite new replica collection for the modern woman',
     buttonText: 'Shop Now',
     buttonLink: '/category/brass',
     image: '/images/hero/hero-1.jpg'
